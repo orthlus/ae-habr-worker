@@ -29,7 +29,24 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
-        
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>art.aelaort</groupId>
+            <artifactId>aelaort-telegrambots</artifactId>
+            <version>11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>art.aelaort</groupId>
+            <artifactId>aelaort-s3-sdk</artifactId>
+            <version>2.1</version>
+        </dependency>
     </dependencies>
 
     <build>
