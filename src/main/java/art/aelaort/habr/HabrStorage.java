@@ -17,7 +17,7 @@ import static art.aelaort.S3ClientProvider.client;
 @RequiredArgsConstructor
 public class HabrStorage {
 	private final S3Params habrS3;
-	@Value("${habr.s3.bucket}")
+	@Value("${s3.bucket}")
 	private String bucket;
 	private final String postsFile = "last-posts.csv";
 	private final String newsFile = "last-news.csv";
